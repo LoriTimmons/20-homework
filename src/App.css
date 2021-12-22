@@ -1,0 +1,208 @@
+/* add media queries and flex for mobil responsiveness, do at the end */
+/* img note: img: better to wrap it in a div and set the img width property to be 100% of parents container size  */
+/* text size in content 48px for all screens */
+
+:root {
+  --primary-color: #808e9b;
+  --secondary-color: #575fcf;
+  --tertiary-color: #485460;
+  --header-color: #1e272e;
+  --text-color: #d2dae2;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--primary-color);
+}
+
+header {
+  padding: 5px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  color: var(--header-color)
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: var(--header-color);
+  margin: 0;
+}
+
+header nav {
+  margin: 0;
+  padding: 5px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-size: 1.55vw;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--header-color);
+}
+
+/* hero styling */
+
+img {
+  height: 200px;  
+}
+
+.hero {
+  background-color: var(--tertiary-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-content h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: var(--header-color);
+}
+
+.hero-content {
+  margin: 3.5%;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.2;
+
+}
+.hero-img {
+  align-items: flex-start;
+  width: 40%;
+}
+
+Need to update
+/* .about-me {
+
+} */
+
+.about-me h2 {
+  display: flex;
+  display: wrap;
+  justify-content: flex-start;
+  
+}
+
+.content {
+  background-color: var(--tertiary-color);
+}
+
+.project1 a {
+  text-decoration: none;
+  color: var(--header-color);
+  
+}
+
+.overlay-title1 a {
+  text-decoration: none;
+}
+
+.project1 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;  
+  position: relative;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fce138;
+}
+
+.overlay-title1 {
+  display: flex;
+ flex-wrap: wrap;
+ position: absolute;
+ left: 0px;
+ top: 130px;
+ width: 20;
+ background-color:#fce138 ;  
+}
+
+.overlay-title1:hover {
+  color: #fce138;
+background: black;
+}
+  
+/* Add back in if overlay does not work */
+/* #project1-img {
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+} */
+
+.project2-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around
+}
+.project2-img {
+      border: solid black
+  }
+
+.project3-img {
+      border: solid black
+  }
+
+
+footer {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h3 {
+    color: var (--header-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+/* keep at end and in order */
+
+/* MEDIA QUERY FOR SMALLER DESKTOPS SCREENS & SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+          padding-bottom: 0;
+          justify-content: center;
+          position: relative;
+  }
+
+  header h1 {
+      width: 100%;
+      text-align: center;
+    } */
+
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    header nav ul li a {
+      font-size: 15px;
+    } 
+}
