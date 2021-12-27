@@ -17,4 +17,4 @@
   #### Contact Me @: lorietimmons@gmail.com<br>
   #### GitHub Profile: LoriTimmons
   #### GitHub Repo Link: https://github.com/LoriTimmons/20-homework
-  #### Deployed Application: TBD
+  #### Deployed Application: http://loritimmons.github.io/20-homework
