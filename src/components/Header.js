@@ -1,28 +1,15 @@
 import React from 'react';
+// Need to use Nav 🚫
+import Navigation from './Navigation';
 
 function Header () {
     return (
         <header className='header'>
         <h1>
             <a href="/">Lori Timmons</a>
+            <Navigation/>
         </h1>
-        <nav>
-            
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Projects</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+        <h2></h2>
     </header>
     )
 }
