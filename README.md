@@ -5,7 +5,10 @@
 * [Questions / Issues](#Questions)<br>
 
   ## Description
-  This project will showcase my portfolio built in react. This will show information about me, my projects, resume and contact information. 
+  I have created an online professional portfolio for all employers to view my projects. This project will showcase my portfolio built in react. This will give information about me, my projects, resume and contact information. 
+
+![Screen shot 1](assets/images/screenshot1.png)
+![screen shot 2](assets/images/screenshot2.png)
 
   ## Installation
   To create this you need to install / create react.
