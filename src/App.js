@@ -3,6 +3,8 @@ import  Header from "./components/Header/Header";
 import  Footer from "./components/Footer/Footer";
 import  AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
+import ContactMe from './components/ContactMe/ContactMe';
+import Resume from './components/Resume/Resume'
 import react, {useState} from 'react';
 import { render } from '@testing-library/react';
 
@@ -14,12 +16,12 @@ function App() {
       return <AboutMe/>
     }else if (newPage === "Portfolio") {
       return <Projects/>
+    }else if (newPage === "ContactMe") {
+      return <ContactMe/>
+    }else {
+      return <Resume/>
     }
-    // else if (newPage === "ContactMe") {
-    //   return <ContactMe/>
-    // }else {
-    //   return <Resume/>
-    // }
+
   }
   return (
     <div>
