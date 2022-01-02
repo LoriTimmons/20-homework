@@ -1,17 +1,33 @@
 import './App.css';
-import  Header from "./components/Header";
-import  Footer from "./components/Footer";
-import  Aboutme from "./components/Aboutme";
-import Projects from "./components/Projects";
+import  Header from "./components/Header/Header";
+import  Footer from "./components/Footer/Footer";
+import  AboutMe from "./components/AboutMe/AboutMe";
+import Projects from "./components/Projects/Projects";
+import react, {useState} from 'react';
+import { render } from '@testing-library/react';
 
 
-// like the body of html. Write the entire project here. START HERE. Use components 
 function App() {
+  const [newPage, setNewPage] = useState("AboutMe")
+  function renderPage () {
+    if(newPage === "AboutMe") {
+      return <AboutMe/>
+    }else if (newPage === "Portfolio") {
+      return <Projects/>
+    }
+    // else if (newPage === "ContactMe") {
+    //   return <ContactMe/>
+    // }else {
+    //   return <Resume/>
+    // }
+  }
   return (
     <div>
-    <Header/>
-    <Aboutme/>
-    <Projects/>
+    <Header setNewPage={setNewPage}/>
+
+    <div>
+      {renderPage()}
+    </div>
     <Footer/>
     </div>
   );

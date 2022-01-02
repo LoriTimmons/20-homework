@@ -48,8 +48,9 @@ header nav ul {
   list-style-type: none;
 }
 
-header nav ul li a {
+header nav ul li {
   padding: 10px 15px;
+  margin: 5px;
   font-size: 1.55vw;
 }
 

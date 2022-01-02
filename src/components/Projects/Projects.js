@@ -1,11 +1,12 @@
 import React from 'react';
+import runBuddy from "../../assets/images/runBuddy.png";
 
 function Projects () {
     return (
         <div>
            <h2>Projects</h2>
         <div id="work" class= "project1">
-            <img src=".src/assets/images/Run-Buddy.png"/>
+            <img src={runBuddy}/>
             <a href="https://loritimmons.github.io/run-buddy/"><h1 class= "overlay-title1">Run Buddy</h1></a>
         </div> 
 
