@@ -12,14 +12,14 @@ function Projects () {
             <a href="https://loritimmons.github.io/run-buddy/"><h1 class= "overlay-title1">Run Buddy</h1></a>
         </div> 
 
-        <div class="project2-3">
-            <div class="project2">
+        <div className='flex-row'>
+            <div className="project2">
                 <h3>Coffee Connection</h3>
                 <a href="https://doctormuch.github.io/fs-joe-java-journey/" target="_blank">
                 <img src={coffeeConnection}/>
                 </a>
             </div>
-            <div class="project3">
+            <div className="project3">
                 <h3>Santa's List</h3>
                 <a href="https://santasnicelist.herokuapp.com/ " target="_blank">
                 <img class= "project3-img" src={santasList}/>

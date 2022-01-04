@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Add required functionary and invalid email address 
 function contactMe () {
     return (
         <form className='form'>

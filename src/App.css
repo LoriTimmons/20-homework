@@ -157,6 +157,12 @@ background: black;
       border: solid black
   }
 
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .form {
     border: 7px solid var(--secondary-color);
     background-color: #BBCBCB;

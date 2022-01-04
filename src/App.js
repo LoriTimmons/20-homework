@@ -38,10 +38,7 @@ function App() {
 export default App;
 
 // Just build the one page component style 
-// Read instructions carefully (See nav (sub component))
-// look at webpages like sections
-// Pages: look at the last activities of unit 20. HOw to render pages (components)
-// For animates are material UI, antdesign (use this one maybe), see slack resorces 
 // Import boot strap seperatlly ??? 
 // if you use boot stramp for CSS import to indext.html before react 
 // Each compoent gets its only folder....and within that Js/CSS
+// in mods check out the flex row and thumbnail mx 1 css
