@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/20-homework/static/css/main.f8baeb75.css",
+    "main.js": "/20-homework/static/js/main.07d7bad7.js",
+    "static/js/787.5e74bd4b.chunk.js": "/20-homework/static/js/787.5e74bd4b.chunk.js",
+    "static/media/santas-list.png": "/20-homework/static/media/santas-list.d0860861ffc1e31c0914.png",
+    "static/media/01-screenshot.png": "/20-homework/static/media/01-screenshot.17b9df7cd8fa9b4b5581.png",
+    "static/media/runBuddy.png": "/20-homework/static/media/runBuddy.ef34e04b05fc34df378c.png",
+    "static/media/AvatarMaker.svg": "/20-homework/static/media/AvatarMaker.ca33668231e0a679f918a79c4f3c52c0.svg",
+    "index.html": "/20-homework/index.html",
+    "main.f8baeb75.css.map": "/20-homework/static/css/main.f8baeb75.css.map",
+    "main.07d7bad7.js.map": "/20-homework/static/js/main.07d7bad7.js.map",
+    "787.5e74bd4b.chunk.js.map": "/20-homework/static/js/787.5e74bd4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8baeb75.css",
+    "static/js/main.07d7bad7.js"
+  ]
+}
