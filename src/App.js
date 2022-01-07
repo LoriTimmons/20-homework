@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
-import ContactMe from "./components/ContactMe/ContactMe";
+import ContactForm  from "./components/ContactMe/ContactMe";
 import Resume from "./components/Resume/Resume";
 import React, { useState } from "react";
 
@@ -15,7 +15,7 @@ function App() {
     } else if (newPage === "Portfolio") {
       return <Projects />;
     } else if (newPage === "ContactMe") {
-      return <ContactMe />;
+      return <ContactForm />;
     } else {
       return <Resume />;
     }

@@ -114,7 +114,7 @@ img {
 .project1 {
   display: flex;
   flex-wrap: wrap; 
-  justify-content: center;  
+  justify-content: space-around;  
   position: relative;
   width: 400px;
   height: auto;
@@ -159,38 +159,60 @@ background: black;
   }
 
   .form {
-    border: 7px solid var(--secondary-color);
+    justify-content: center;
+    border: 2px solid var(--secondary-color);
     background-color: #BBCBCB;
     border-radius: 20px;
-    padding: 50px;
+    padding: 10px;
     color: var(--text-color);
     width: 40%;
     margin: 20%;
     font-size: 30px;
+    box-sizing: border-box;
   }
+
+  .form input {
+      padding:10px;
+      margin:10px 0;
+      padding:10px;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+      padding:10px;
+      border-radius:10px;
+    }
+
+    .textarea {
+      margin:10px 0;
+      padding:10px;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+      border-radius:10px;
+    }
+
   
-footer {
+.footer {
   background: var(--primary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+  text-decoration: none;
 }
 
-footer h3 {
+.footer h3 {
     color: var (--header-color);
     font-size: 30px;
     margin: 0;
-    justify-content: center;
+    justify-content: space-between;
+    text-decoration: none;
 }
 
-.links {
-  color: var (--header-color);
-    font-size: 30px;
+.footer a {
+    text-decoration: none;;
+    font-size: px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
      justify-content: space-between;
+     
 }
 
 /* keep at end and in order */

@@ -2,6 +2,9 @@ import React from 'react';
 import runBuddy from "../../assets/images/runBuddy.png";
 import santasList from "../../assets/images/santas-list.png";
 import coffeeConnection from "../../assets/images/01-screenshot.png"
+import homeWork13 from "../../assets/images/SS1.png"
+import homeWork09 from "../../assets/images/09.png"
+import homeWork10 from "../../assets/images/10.png"
 
 function Projects () {
     return (
@@ -25,6 +28,24 @@ function Projects () {
                 <img class= "project3-img" src={santasList}/>
                 </a>
             </div>
+        <div>
+            <h3>E-Commerce Back End</h3>
+            <a href='https://github.com/LoriTimmons/13-Homework'>
+            <img src={homeWork13}/>
+            </a>
+        </div>
+        <div>
+            <h3>Generate Markdown File</h3>
+            <a href='https://github.com/LoriTimmons/09-homework'>
+            <img src={homeWork09}/>
+            </a>
+        </div>
+        <div>
+            <h3>Command-Line Application</h3>
+            <a href='https://github.com/LoriTimmons/10-homework'>
+            <img src={homeWork10}/>
+            </a>
+        </div>
     </div>
         
         </div>
