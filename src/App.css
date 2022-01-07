@@ -90,11 +90,6 @@ img {
   width: 40%;
 }
 
-Need to update
-/* .about-me {
-
-} */
-
 .about-me h2 {
   display: flex;
   display: wrap;
@@ -211,7 +206,7 @@ footer h3 {
   header h1 {
       width: 100%;
       text-align: center;
-    } */
+    } 
 
   header nav ul {
       margin-top: 20px;
