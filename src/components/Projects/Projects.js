@@ -5,7 +5,7 @@ import coffeeConnection from "../../assets/images/01-screenshot.png"
 import homeWork13 from "../../assets/images/SS1.png"
 import homeWork09 from "../../assets/images/09.png"
 import homeWork10 from "../../assets/images/10.png"
-import project03 from "../../assets/images/potter/png"
+import project03 from "../../assets/images/potter.png"
 
 function Projects () {
     return (

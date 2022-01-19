@@ -5,7 +5,6 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
 import ContactForm  from "./components/ContactMe/ContactMe";
 import Resume from "./components/Resume/Resume";
-import test from "./components/test";
 import React, { useState } from "react";
 
 function App() {
@@ -17,8 +16,6 @@ function App() {
       return <Projects />;
     } else if (newPage === "ContactMe") {
       return <ContactForm />;
-    } else if (newPage === "test") {
-      return < test />;
     } else {
       return <Resume />;
     }
