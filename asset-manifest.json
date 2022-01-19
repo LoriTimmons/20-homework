@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/20-homework/static/css/main.f8baeb75.css",
-    "main.js": "/20-homework/static/js/main.07d7bad7.js",
+    "main.css": "/20-homework/static/css/main.2a66135c.css",
+    "main.js": "/20-homework/static/js/main.05d5cc44.js",
     "static/js/787.5e74bd4b.chunk.js": "/20-homework/static/js/787.5e74bd4b.chunk.js",
+    "static/media/potter.png": "/20-homework/static/media/potter.36300e532b557f455852.png",
     "static/media/santas-list.png": "/20-homework/static/media/santas-list.d0860861ffc1e31c0914.png",
     "static/media/01-screenshot.png": "/20-homework/static/media/01-screenshot.17b9df7cd8fa9b4b5581.png",
     "static/media/runBuddy.png": "/20-homework/static/media/runBuddy.ef34e04b05fc34df378c.png",
+    "static/media/10.png": "/20-homework/static/media/10.50a0dbb4b0eff0a8e3a7.png",
+    "static/media/09.png": "/20-homework/static/media/09.1389e775b69d98be85f5.png",
+    "static/media/SS1.png": "/20-homework/static/media/SS1.7b95b54a08f472265931.png",
     "static/media/AvatarMaker.svg": "/20-homework/static/media/AvatarMaker.ca33668231e0a679f918a79c4f3c52c0.svg",
     "index.html": "/20-homework/index.html",
-    "main.f8baeb75.css.map": "/20-homework/static/css/main.f8baeb75.css.map",
-    "main.07d7bad7.js.map": "/20-homework/static/js/main.07d7bad7.js.map",
+    "main.2a66135c.css.map": "/20-homework/static/css/main.2a66135c.css.map",
+    "main.05d5cc44.js.map": "/20-homework/static/js/main.05d5cc44.js.map",
     "787.5e74bd4b.chunk.js.map": "/20-homework/static/js/787.5e74bd4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8baeb75.css",
-    "static/js/main.07d7bad7.js"
+    "static/css/main.2a66135c.css",
+    "static/js/main.05d5cc44.js"
   ]
 }
