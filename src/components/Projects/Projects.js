@@ -5,6 +5,7 @@ import coffeeConnection from "../../assets/images/01-screenshot.png"
 import homeWork13 from "../../assets/images/SS1.png"
 import homeWork09 from "../../assets/images/09.png"
 import homeWork10 from "../../assets/images/10.png"
+import project03 from "../../assets/images/potter/png"
 
 function Projects () {
     return (
@@ -44,6 +45,13 @@ function Projects () {
             <h3>Command-Line Application</h3>
             <a href='https://github.com/LoriTimmons/10-homework'>
             <img src={homeWork10}/>
+            </a>
+        </div>
+        
+        <div>
+            <h3>Potter's Marauders</h3>
+            <a href='https://stark-plains-49295.herokuapp.com/'>
+            <img src={project03}/>
             </a>
         </div>
     </div>

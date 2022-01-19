@@ -26,6 +26,9 @@ function Nav(props) {
           <li>
           <span onClick={() => props.setNewPage("ContactMe")}>Contact Me</span>
           </li>
+          <li>
+          <span onClick={() => props.setNewPage("Test")}>Test</span>
+          </li>
         </ul>
       </nav>
     </div>
